@@ -12,19 +12,29 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
-      "type": "richtext",
-      "required": true
-    },
-    "content": {
-      "type": "text",
-      "required": true
-    },
     "categories": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::category.category",
       "mappedBy": "posts"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }

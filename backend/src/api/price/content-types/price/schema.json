@@ -14,6 +14,21 @@
   "attributes": {
     "Prices": {
       "type": "json"
+    },
+    "homepagePricingTitle": {
+      "type": "string"
+    },
+    "homepagePricingSubtitle": {
+      "type": "string"
+    },
+    "pricingPagePricingTitle1": {
+      "type": "string"
+    },
+    "pricingPagePricingSubtitle": {
+      "type": "string"
+    },
+    "pricingPagePricingTitle2": {
+      "type": "string"
     }
   }
 }

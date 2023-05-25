@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "marketing_cards",
+  "info": {
+    "singularName": "marketing-card",
+    "pluralName": "marketing-cards",
+    "displayName": "MarketingCard"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "marketingCards": {
+      "type": "json"
+    }
+  }
+}

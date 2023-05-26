@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "freetrail_cards",
+  "info": {
+    "singularName": "freetrail-card",
+    "pluralName": "freetrail-cards",
+    "displayName": "FreetrailCard"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "trailCardTitle": {
+      "type": "string"
+    },
+    "trailCardSubtext": {
+      "type": "string"
+    }
+  }
+}

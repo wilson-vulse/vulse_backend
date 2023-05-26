@@ -4,7 +4,8 @@
   "info": {
     "singularName": "marketing-card",
     "pluralName": "marketing-cards",
-    "displayName": "MarketingCard"
+    "displayName": "MarketingCard",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,6 +14,12 @@
   "attributes": {
     "marketingCards": {
       "type": "json"
+    },
+    "cardsTitle": {
+      "type": "string"
+    },
+    "cardsParagraph": {
+      "type": "text"
     }
   }
 }
